@@ -5,11 +5,11 @@ import csv
 from collections import Counter, defaultdict
 from typing import Dict, List, Tuple
 
-dependance_to_analyze = '@roole-fr/ui-kit-web'
+dependance_to_analyze = 'XXXXXXXXXXXXX'
 
 projects_input = {
-    "dvv": "../../IdeaProjects/dvv-frontend",
-    "data": "../../IdeaProjects/data-roole-ui"
+    "mon-super-projet": "/chemin/vers/mon-super-projet",
+    "un-autre-projet": "/chemin/vers/un-autre-projet"
 }
 
 def extract_imports_from_file(filepath: str) -> List[str]:
