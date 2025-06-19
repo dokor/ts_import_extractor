@@ -35,11 +35,17 @@ Le résultat est exporté sous forme de fichier CSV compatible avec Excel.
        "un-autre-projet": "/chemin/vers/un-autre-projet"
    }
 
-3. **Lancer le script**  
+3. **Configurer la librairie a analyser**  
+   Dans le script, modifier cette variable avec le exact de la librairie que vous souhaitez analyser :
+
+   ```python
+   dependance_to_analyze = 'XXXXXXXXXXXXX'
+
+4. **Lancer le script**  
     ```python
     python analyser_imports.py
 
-4. **Récupérer le fichier CSV généré**
+5. **Récupérer le fichier CSV généré**
 Il sera disponible à la racine dans analyse_kitui.csv
 
 ---
