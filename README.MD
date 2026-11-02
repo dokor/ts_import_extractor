@@ -140,4 +140,4 @@ Non. Le script lit les fichiers source et les `package.json` locaux ; il n'exéc
 
 Pour signaler un problème ou proposer une amélioration, [ouvrez une issue](https://github.com/dokor/ts_import_extractor/issues) ou une pull request. Pour un problème d'extraction, fournissez un exemple minimal d'import et le résultat attendu.
 
-Développé par **Antoine LE LOUËT** ([dokor](https://github.com/dokor)).
+Développé par **Antoine LE LOUËT** ([antoine.lelouet.fr](https://antoine.lelouet.fr)).
